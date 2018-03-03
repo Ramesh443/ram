@@ -1,4 +1,10 @@
- /*Little Endian:
+/***** Endianess means storing the byte order in memory location that is storing lower address or in higher address.*****/
+/***** There are 3 types of Endianess 
+1. Big Endian
+2. Little Endian
+3. Bi-Endian
+
+/*Little Endian:
     Little Endian means that the lower order byte of the number is stored in memory at the lowest address,
 	and the higher order byte is stored at the highest address.
 
@@ -41,7 +47,7 @@ int main()
     return 0;
 }*/
 
-
+/***** Endianess program in using union *****/
 /*union {
     int i;
     char c[sizeof(int)];
