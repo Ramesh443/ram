@@ -14,7 +14,9 @@ int main()
 	//	unsigned char num = 0x12345678;
 	char *byte ;
 	//int *byte;
-	byte = (char *)&num;
+	//byte = (char *)&num;
+	byte = &num;
+	
 	if(*byte==0x78)
 
 		printf("little endian");
